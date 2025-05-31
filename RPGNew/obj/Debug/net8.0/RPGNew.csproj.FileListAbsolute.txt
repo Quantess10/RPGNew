@@ -1,0 +1,14 @@
+C:\Users\lolesik\source\repos\RPGNew\RPGNew\bin\Debug\net8.0\RPGNew.exe
+C:\Users\lolesik\source\repos\RPGNew\RPGNew\bin\Debug\net8.0\RPGNew.deps.json
+C:\Users\lolesik\source\repos\RPGNew\RPGNew\bin\Debug\net8.0\RPGNew.runtimeconfig.json
+C:\Users\lolesik\source\repos\RPGNew\RPGNew\bin\Debug\net8.0\RPGNew.dll
+C:\Users\lolesik\source\repos\RPGNew\RPGNew\bin\Debug\net8.0\RPGNew.pdb
+C:\Users\lolesik\source\repos\RPGNew\RPGNew\obj\Debug\net8.0\RPGNew.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lolesik\source\repos\RPGNew\RPGNew\obj\Debug\net8.0\RPGNew.AssemblyInfoInputs.cache
+C:\Users\lolesik\source\repos\RPGNew\RPGNew\obj\Debug\net8.0\RPGNew.AssemblyInfo.cs
+C:\Users\lolesik\source\repos\RPGNew\RPGNew\obj\Debug\net8.0\RPGNew.csproj.CoreCompileInputs.cache
+C:\Users\lolesik\source\repos\RPGNew\RPGNew\obj\Debug\net8.0\RPGNew.dll
+C:\Users\lolesik\source\repos\RPGNew\RPGNew\obj\Debug\net8.0\refint\RPGNew.dll
+C:\Users\lolesik\source\repos\RPGNew\RPGNew\obj\Debug\net8.0\RPGNew.pdb
+C:\Users\lolesik\source\repos\RPGNew\RPGNew\obj\Debug\net8.0\RPGNew.genruntimeconfig.cache
+C:\Users\lolesik\source\repos\RPGNew\RPGNew\obj\Debug\net8.0\ref\RPGNew.dll
