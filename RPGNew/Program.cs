@@ -6,11 +6,22 @@ namespace RPGNew
     {
         static void Main(string[] args)
         {
-            Character character = new Character();
+            DatabaseService db = new DatabaseService();
+            db.Initialize();
+
+            Character character = db.LoadLastSave() ?? new Character();
+
+            if (character.Health <= 0)
+            {
+                character = new Character();
+                Console.WriteLine("Twoja postać jest martwa. Odradzasz się.");
+                Console.WriteLine("-----");
+            }
+
             character.AttackStrategy = new MagicAttack();
 
             var factory = new EnemyFactory();
-            var enemy = factory.CreateEnemy("orc");
+            var enemy = factory.CreateEnemy("zombie");
 
             while (character.Health > 0 && enemy.Health > 0)
             {
@@ -20,6 +31,8 @@ namespace RPGNew
             }
 
             Console.WriteLine("Walka zakończona.");
+
+            db.SaveCharacter(character);
         }
     }
 
@@ -219,4 +232,6 @@ namespace RPGNew
             }
         }
     }
+
+     
 }
